@@ -22,20 +22,28 @@ Modificar
 .row {
   flex-direction: row;
 }
+.column{
+  flex-direction: column;
+}
 .wrap {
   flex-flow: column wrap;
 }
 .center {
   align-items: center;
 }
+.center-content{
+  align-content: center;
+}
 
 .center-line {
   justify-content: center;
 }
-.between {
+.evenly {
   justify-content: space-evenly;
 }
-
+.item-center{
+  align-self: center;
+}
 /*Fondos*/
 .bg-primary {
   background-color: var(--primary-color);
@@ -46,6 +54,9 @@ Modificar
 
 .bg-tertiaty {
   background-color: var(--tertiaty-color);
+}
+.bg-gris{
+background-color: gray;
 }
 
 /*pading*/
@@ -86,40 +97,73 @@ Modificar
 .pb-4 {
   padding-bottom: 30px;
 }
-.px-1 {
+
+.pt-1 {
+  padding-top: 5px;
+}
+.pt-2 {
+  padding-top: 10px;
+}
+.pt-3 {
+  padding-top: 15px;
+}
+.pt-4 {
+  padding-top: 30px;
+}
+
+.pb-5 {
+  padding-bottom: 45px;
+}
+.py-1 {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.px-2 {
+.py-2 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.px-3 {
+.py-3 {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.px-4 {
+.py-4 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+
+
 /*margenes*/
-.mx-0 {
+.my-0 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.mx-1 {
+.my-1 {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.mx-2 {
+.my-2 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.mx-3 {
+.my-3 {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+.my-4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mx-4 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.mx-5 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 
 /*texto*/
 .text-center {
@@ -128,7 +172,12 @@ Modificar
 .text-white {
   color: white;
 }
-
+.text-bold{
+font-weight: bold;
+}
+.text-mayus{
+  text-transform: uppercase;
+}
 .titulo {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 55px;
@@ -137,13 +186,18 @@ Modificar
   font-family: Arial, Helvetica, sans-serif;
   font-size: 35px;
 }
+
 .subtitulo {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
 }
+.subtitulo-2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
 .parrafo {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 25px;
 }
 
@@ -163,16 +217,21 @@ Modificar
 .btn-primary {
   background-color: var(--tertiaty-color);
 }
+
+
 /*clases particulares*/
 .size-60 {
   height: 50vh;
 }
 
 .size-30 {
-  height: 30vh;
+  height: 35vh;
 }
 .size-10 {
   height: 5vh;
+}
+.size-40{
+  height: 40vh;
 }
 
 .br-10 {
@@ -180,6 +239,28 @@ Modificar
   box-shadow: 2px 2px 5px #000000;
 }
 
+.subrayar{
+  border-color: gray;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+}
+
+.container-center{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.center-img{
+display: block;
+margin: auto;
+}
+
+ul li{
+  text-decoration: none;
+  list-style: none;
+  padding-bottom: 15px;
+}
 /*máximo de anchura*/
 .max-50 {
   max-width: 500px;
