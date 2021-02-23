@@ -26,7 +26,7 @@ Modificar
   flex-direction: column;
 }
 .wrap {
-  flex-flow: column wrap;
+  flex-wrap: wrap;
 }
 .center {
   align-items: center;
@@ -40,6 +40,9 @@ Modificar
 }
 .evenly {
   justify-content: space-evenly;
+}
+.between{
+  justify-content: space-between;
 }
 .item-center{
   align-self: center;
@@ -56,7 +59,7 @@ Modificar
   background-color: var(--tertiaty-color);
 }
 .bg-gris{
-background-color: gray;
+background-color: #EAEDED;
 }
 
 /*pading*/
@@ -84,6 +87,9 @@ background-color: gray;
 }
 .pl-4 {
   padding-left: 30px;
+}
+.pb-0{
+  padding-bottom: 0px;
 }
 .pb-1 {
   padding-bottom: 5px;
@@ -113,6 +119,10 @@ background-color: gray;
 
 .pb-5 {
   padding-bottom: 45px;
+}
+.py-0{
+  padding-top: 0px  !important;
+  padding-bottom: 0px !important;
 }
 .py-1 {
   padding-top: 5px;
@@ -169,6 +179,9 @@ background-color: gray;
 .text-center {
   text-align: center;
 }
+.text-justify{
+text-align: justify;
+}
 .text-white {
   color: white;
 }
@@ -220,10 +233,12 @@ font-weight: bold;
 
 
 /*clases particulares*/
-.size-60 {
+.size-50 {
   height: 50vh;
 }
-
+.size-51 {
+  height: 51vh;
+}
 .size-30 {
   height: 35vh;
 }
@@ -232,6 +247,10 @@ font-weight: bold;
 }
 .size-40{
   height: 40vh;
+}
+
+.size-footer{
+height: 18vh;
 }
 
 .br-10 {
@@ -260,6 +279,11 @@ ul li{
   text-decoration: none;
   list-style: none;
   padding-bottom: 15px;
+}
+.no-style{
+  text-decoration: none;
+  list-style: none;
+  color: #000000;
 }
 /*máximo de anchura*/
 .max-50 {
