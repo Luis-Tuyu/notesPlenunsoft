@@ -39,7 +39,7 @@
         <!-- Temas populares -->
         <div class="size-30  py-4  bg-gris">
             <h2 class="my-0 text-center titulo-2 pb-3">Temas populares</h2>
-            <div class="container evenly">
+            <div class="container evenly row">
                 <div class="pl-2">
                     <div class="">
                         <a href="#ingenieria-tema" class="no-style">
@@ -152,46 +152,22 @@
             </div>
         </article>
         <article class="size-51  py-4">
-            <h1 class="subtitulo text-center  mx-3 pb-3 text-mayus">
+            <h1 class="subtitulo text-center  mx-3 mt-0 text-mayus">
                 "Conceptos fundamentales"
             </h1>
-            <div class="container">
-                <div class="pl-2">
-                    <img src="./src/IngSoftware.jpg" alt="Ing software" height="130px" width="130"
-                        class="br-10 center-img">
-                    <h3 class="my-0  pt-3 text-center subtitulo-2">Arquitectura cliente/servidor</h3>
-                    <p class="parrafo text-center my-0">Es un modelo en la cual las tareas se dividen entre los
-                        proveedores del servicio y los clientes, quienes consumen dichos recursos. </p>
-                </div>
-
-                <div class="pl-2">
-                    <img src="./src/requerimientos.jpg" alt="requerimientos" height="130px" width="130"
-                        class="br-10 center-img">
-                    <h3 class="my-0 pt-3 text-center subtitulo-2">http</h3>
-                    <p class="parrafo text-center my-0">Es el protocolo de comunicación que permite las transferencias
-                        de información a través de archivos html en la WEB</p>
-                </div>
-                <div class="pl-2">
-                    <img src="./src/arquitectura.png" alt="arquitectura" height="130px" width="130"
-                        class="br-10 center-img">
-                    <h3 class="my-0 pt-3 text-center subtitulo-2">WebService</h3>
-                    <p class="parrafo text-center my-0">Podemos afirmar que no todas las API son en sí mismas son un
-                        Servicio Web pero todos los Servicios Web sí son APIS </p>
-                </div>
-                <div class="pl-2">
-                    <img src="./src/API.png" alt="API" height="130px" width="130" class="br-10 center-img">
-                    <h3 class="my-0 pt-3 text-center subtitulo-2">API-REST</h3>
-                    <p class="parrafo text-center my-0">Es una transferencia de estado representacional, este representa
-                        un
-                        enfoque de comunicación simple y estandarizada.</p>
-                </div>
+            <div class="container row evenly" id="apiSection">
+                <!-- Contenido inyectado con js -->
+            </div>
+            <div class="container center py-1">
+                <a class="btn btn-secondary"  href="#show" onclick="showTextApi()" id="btnShow">ver descripcion</a>
+                <a class="btn btn-secondary ocultar"  href="#hide" onclick="hideTextApi()"  id="btnHide">esconder</a>
             </div>
         </article>
     </section>
     <!-- Fundamentos se programación -->
     <section id="fundamentosprog-tema">
         <h1 class="titulo-2 text-center">Fundamentos de programación</h1>
-        <article class="container between">
+        <article class="container between row">
             <div>
                 <div class="container row">
                     <img src="./src/logica.jpg  " alt="logica" height="200" width="300">
@@ -210,7 +186,7 @@
                 </div>
             </div>
         </article>
-        <article class="container">
+        <article class="container between row">
             <div>
                 <div class="container row">
                     <img src="./src/tablas_verdad4.png" alt="tablas de verdad" height="200" width="300">
@@ -231,7 +207,7 @@
         </article>
     </section>
     <footer class=" bg-secondary">
-        <div class="container evenly center py-0 parrafo">
+        <div class="container row evenly center py-0 parrafo">
             <ul>
                 <li><span style="font-size: 25px;"><i class="fab fa-facebook"></i></span><a href="https://www.facebook.com/luiis.paadron"
                         class="no-style"> luiis paadron</a></li>
@@ -246,6 +222,7 @@
         </div>
         <p class="my-0 text-center pb-1 parrafo text-mayus text-bold">produced by "Ltuyu" 2021</p>
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
