@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Notes</title>
     <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
 </head>
 
 <body>
@@ -19,7 +21,7 @@
     </nav>
     <!-- introduction -->
     <section class="pb-5">
-        <div class="size-50 bg-primary text-white py-3 container center center-line">
+        <div class="size-50 bg-inicio text-white py-3 container center center-line">
             <div>
                 <h1 class="text-center my-0 titulo">My NoteBook</h1>
                 <div class="container row center-line  center my-2">
@@ -28,13 +30,8 @@
                     </div>
                     <div>
                         <h3 class="subtitulo my-0">Mis notas</h3>
-                        <p class="max-50 parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate,
-                            inventore
-                            minima maiores
-                            eligendi illum voluptas repellendus beatae quaerat molestiae, ipsam exercitationem ea
-                            architecto.
-                            Aliquid voluptas animi ut dolor dignissimos blanditiis!</p>
-                        <a href="#" class="btn btn-primary">comenzar</a>
+                        <p class="max-50 parrafo">Mis notas es una web que recopila la información de los bloques del modelos DUAL en el instituto tecnológico de mérida. Creada con el propósito de mostrar sus apuntes a los compañeros de clase.</p>
+                        <a href="#ingenieria-tema" class="btn btn-primary">comenzar</a>
                     </div>
                 </div>
             </div>
@@ -45,25 +42,33 @@
             <div class="container evenly">
                 <div class="pl-2">
                     <div class="">
-                        <img src="./src/IngSoftware.jpg" alt="Ing software" height="130px" width="130"
-                            class="br-10 center-img">
-                        <h3 class="my-0  pt-1 text-center subtitulo-2">Ingeniería de software</h3>
+                        <a href="#ingenieria-tema" class="no-style">
+                            <img src="./src/IngSoftware.jpg" alt="Ing software" height="130px" width="130"
+                                class="br-10 center-img">
+                            <h3 class="my-0  pt-1 text-center subtitulo-2">Ingeniería de software</h3>
+                        </a>
                     </div>
                 </div>
 
                 <div class="pl-2">
-                    <img src="./src/arquitectura.png" alt="arquitectura" height="130px" width="130"
-                        class="br-10 center-img">
-                    <h3 class="my-0 pt-1 text-center subtitulo-2">Arquitectura de software</h3>
+                    <a href="#arquitectura-tema" class="no-style">
+                        <img src="./src/arquitectura.png" alt="arquitectura" height="130px" width="130"
+                            class="br-10 center-img">
+                        <h3 class="my-0 pt-1 text-center subtitulo-2">Arquitectura de software</h3>
+                    </a>
                 </div>
                 <div class="pl-2">
-                    <img src="./src/API.png" alt="API" height="130px" width="130" class="br-10 center-img">
-                    <h3 class="my-0 pt-1 text-center subtitulo-2">API</h3>
+                    <a href="#api-tema" class="no-style">
+                        <img src="./src/API.png" alt="API" height="130px" width="130" class="br-10 center-img">
+                        <h3 class="my-0 pt-1 text-center subtitulo-2">API</h3>
+                    </a>
                 </div>
                 <div class="pl-2">
-                    <img src="./src/requerimientos.jpg" alt="requerimientos" height="130px" width="130"
-                        class="br-10 center-img">
-                    <h3 class="my-0 pt-1 text-center subtitulo-2">Fundamentos de programación</h3>
+                    <a href="#fundamentosprog-tema" class="no-style">
+                        <img src="./src/requerimientos.jpg" alt="requerimientos" height="130px" width="130"
+                            class="br-10 center-img">
+                        <h3 class="my-0 pt-1 text-center subtitulo-2">Fundamentos de programación</h3>
+                    </a>
                 </div>
             </div>
         </div>
@@ -74,7 +79,7 @@
 
         <article class="container row center-line center size-30">
             <div class="pr-4">
-                <h1 class="my-0 titulo-2 text-center">Ingeniería de software</h1>
+                <h1 class="my-0 titulo-2 text-center" id="ingenieria-tema">Ingeniería de software</h1>
                 <p class="text-center parrafo max-50">Es la rama de la ingeniería que estudia
                     todo lo relacionado con la informática o sistemas de computación, con una orientación metódica,
                     ordenada y cuantificable al incremento, ejecución y conservación del software.</p>
@@ -121,7 +126,8 @@
                         </ul>
                     </li>
                     <li class="parrafo">
-                        <p class="text-bold my-0 text-mayus text-center">"Arquitectura de software"</p>
+                        <p class="text-bold my-0 text-mayus text-center" id="arquitectura-tema">"Arquitectura de
+                            software"</p>
                         <p class="my-0 text-bold ">Tubos y filtros</p>
                         Esta arquitectura consiste en dividir la información obtenida por
                         tubos y filtros, en la cual cada filtro procesa la información y se lo manda por medio de un
@@ -134,7 +140,7 @@
     </section>
     <!-- Sección 2 API -->
     <section class="bg-primary py-4 text-white">
-        <article class="container row center-line center size-30">
+        <article class="container row center-line center size-30" id="api-tema">
             <div class="pr-4">
                 <img src="./src/API-Presentacion.jpeg" alt="ingenieria de software ejemplo" height="250" width="450">
             </div>
@@ -183,7 +189,7 @@
         </article>
     </section>
     <!-- Fundamentos se programación -->
-    <section class="">
+    <section id="fundamentosprog-tema">
         <h1 class="titulo-2 text-center">Fundamentos de programación</h1>
         <article class="container between">
             <div>
@@ -227,15 +233,18 @@
     <footer class=" bg-secondary">
         <div class="container evenly center py-0 parrafo">
             <ul>
-                <li><span style="font-size: 25px;"><i class="fab fa-facebook"></i></span><a href="www.facebook.com" class="no-style"> luiis paadron</a></li>
-                <li><span style="font-size: 25px; "><i class="fab fa-instagram"></i></span><a href="www.instagram.com" class="no-style"> @luis.tuyu25</a></li>
+                <li><span style="font-size: 25px;"><i class="fab fa-facebook"></i></span><a href="https://www.facebook.com/luiis.paadron"
+                        class="no-style"> luiis paadron</a></li>
+                <li><span style="font-size: 25px; "><i class="fab fa-instagram"></i></span><a href="https://www.instagram.com/luis_tuyu25/"
+                        class="no-style"> @luis.tuyu25</a></li>
             </ul>
             <ul>
                 <li><span style="font-size: 25px;"><i class="fas fa-phone-square-alt"></i></span> (999)5520890</li>
-                <li><span style="font-size: 25px;"><i class="fas fa-envelope-square"></i></span> franciscotuyupadron@gmail.com</li>
+                <li><span style="font-size: 25px;"><i class="fas fa-envelope-square"></i></span>
+                    franciscotuyupadron@gmail.com</li>
             </ul>
         </div>
-        <p class="my-0 text-center pb-1 parrafo text-mayus text-bold">produced by Ltuyu 2021</p>
+        <p class="my-0 text-center pb-1 parrafo text-mayus text-bold">produced by "Ltuyu" 2021</p>
     </footer>
 </body>
 
