@@ -77,3 +77,4 @@ function hideTextApi(){
   btnShow.classList.remove('ocultar');
   
 }
+//Referencias: http://www.codexexempla.org/curso/curso_4_3_d.php#aCh 
