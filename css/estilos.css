@@ -316,3 +316,7 @@ ul li{
 .ocultar{
   display: none;
 }
+
+.mg-auto{
+margin: auto;
+}
