@@ -12,7 +12,7 @@ let apiTopics = [
     title: "http",
     content:
       "Es el protocolo de comunicación que permite las transferencias de información a través de archivos html en la WEB",
-    recurso: "src/requerimientos.jpg",
+    recurso: "src/http.jpg",
   },
   {
     id: 3,
